@@ -1,0 +1,200 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: beige;
+}
+
+.header {
+    padding-left: 5rem;
+    height: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(39, 31, 31);
+    background-color: rgba(243, 102, 9, 0.959);
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    padding-left: 2rem;
+    font-family: Calibri;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.list,
+a {
+    display: flex;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.l1 {
+    padding-left: 50rem;
+}
+
+.l2 {
+    padding-left: 3rem;
+}
+
+.name {
+    padding-left: 3.8rem;
+    font-weight: 900;
+    color: crimson;
+    border-bottom: 1px solid saddlebrown;
+    font-size: larger;
+    font-family: Georgia;
+}
+
+.container {
+    width: 100%;
+}
+
+.heading p {
+    font-family: "Elephant";
+    font-size: 45px;
+    padding: 40px;
+    text-align: center;
+}
+
+.contactB {
+    padding: 3rem 2rem;
+    display: flex;
+    border-top: 25px solid rgb(243, 243, 222);
+    box-shadow: 0 0 5px 5px rgb(161, 151, 151);
+    border-bottom: 25px solid rgb(243, 243, 222);
+    box-shadow: 0 0 5px 5px rgb(161, 151, 151);
+    font-family: 'Trebuchet MS';
+}
+
+.contact-left {
+    flex-basis: 50%;
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+
+.contact-left h1 {
+    font-size: 40px;
+}
+
+.inputR .inputG {
+    margin-top: 2rem;
+    flex-basis: 45%;
+}
+
+input {
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid rgb(136, 118, 118);
+    outline: none;
+    font-size: larger;
+    padding-bottom: 4px;
+    display: flex;
+    background-color: beige;
+}
+
+label {
+    padding-top: 2rem;
+    font-size: x-large;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+textarea {
+    width: 90%;
+    border: 2px solid rgb(136, 118, 118);
+    background-color: beige;
+    outline: none;
+    margin-top: 1.5rem;
+}
+
+button {
+    height: 38px;
+    width: 165px;
+    margin-top: 2.5rem;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(243, 102, 9, 0.959);
+    border: none;
+    border-radius: 30px;
+}
+
+.contact-right {
+    flex-basis: 50%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.contact-right h1 {
+    font-size: 40px;
+}
+
+table {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tr td:first-child {
+    padding-right: 35px;
+}
+
+tr td {
+    padding-top: 1.5rem;
+}
+
+.time p {
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: rgb(231, 100, 6);
+    height: 330px;
+    padding-top: 2rem;
+    padding-inline-start: 2.5rem;
+}
+
+.footer li {
+    font-size: 24px;
+    color: wheat;
+}
+
+.W {
+    padding-left: 13rem;
+}
+
+.W p {
+    padding-top: 0%;
+}
+
+.footer p {
+    color: wheat;
+    font-size: 24px;
+}
+
+.L {
+    padding-left: 8rem;
+}
+
+.logo {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    color: orangered;
+    padding-left: 15rem;
+    font-size: 25px;
+}
